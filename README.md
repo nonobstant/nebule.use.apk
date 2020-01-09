@@ -1,13 +1,13 @@
 # nebuleuse
+web.poem app of <a>nebule.us/e</a>
 
-## version
-    0.0.1
+## Dev
+    v0.0.1 -- testing web.view and internet permissions
+
 ### PhoneGap CLI
 
-    made with PhoneGap
+    Made with PhoneGap CLI
 
 ### Desktop
-
-In your browser, open the file:
 
     /www/index.html
