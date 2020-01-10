@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="nonobstant.nebuleuse.lux" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>nebule.us/e</name>
+    <description>
+        web.poem
+    </description>
+    <author email="nonobstant@luxminima.com" href="https://luxminima.com">
+        nonobstant
+    </author>
+    <content src="index.html" />
+    <icon src="res/icons/icon.png" />
+    <access origin="*" />
+    <icon density="ldpi" src="res/icons/icon-ldpi.png" />
+    <icon density="mdpi" src="res/icons/icon-mdpi.png" />
+    <icon density="hdpi" src="res/icons/icon-hdpi.png" />
+    <icon density="xhdpi" src="res/icons/icon-xhdpi.png" />
+    <splash density="port-hdpi" src="res/screen/splash-hdpi.png" />
+    <splash density="port-ldpi" src="res/screen/splash-ldpi.png" />
+    <splash density="port-mdpi" src="res/screen/splash-mdpi.png" />
+    <splash density="port-ximg" src="res/screen/splash-xhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="BackgroundColor" value="0xFF000000" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>
