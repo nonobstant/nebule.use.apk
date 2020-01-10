@@ -14,10 +14,12 @@
     <icon density="mdpi" src="res/icons/icon-mdpi.png" />
     <icon density="hdpi" src="res/icons/icon-hdpi.png" />
     <icon density="xhdpi" src="res/icons/icon-xhdpi.png" />
-    <splash density="port-hdpi" src="res/screen/splash-hdpi.png" />
-    <splash density="port-ldpi" src="res/screen/splash-ldpi.png" />
-    <splash density="port-mdpi" src="res/screen/splash-mdpi.png" />
-    <splash density="port-ximg" src="res/screen/splash-xhdpi.png" />
+    <icon background="res/screen/splash-hdpi.png" density="ldpi" foreground="res/icon/android/ldpi-foreground.png" />
+    <icon background="res/screen/splash-ldpi.png" density="mdpi" foreground="res/icon/android/mdpi-foreground.png" />
+    <icon background="res/screen/splash-mdpi.png" density="hdpi" foreground="res/icon/android/hdpi-foreground.png" />
+    <icon background="res/screen/splash-xhdpi.png" density="xhdpi" foreground="res/icon/android/xhdpi-foreground.png" />
+    <icon background="res/icon/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icon/android/xxhdpi-foreground.png" />
+    <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="Fullscreen" value="true" />
     <preference name="BackgroundColor" value="0xFF000000" />

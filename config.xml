@@ -23,10 +23,12 @@
 
     <!-- Splash Screen -->
     <platform name="android">
-      <splash src="res/screen/splash-hdpi.png" density="port-hdpi"/>
-      <splash src="res/screen/splash-ldpi.png" density="port-ldpi"/>
-      <splash src="res/screen/splash-mdpi.png" density="port-mdpi"/>
-      <splash src="res/screen/splash-xhdpi.png" density="port-ximg"/>
+      <icon background="res/screen/splash-hdpi.png" density="ldpi" foreground="res/icon/android/ldpi-foreground.png" />
+      <icon background="res/screen/splash-ldpi.png" density="mdpi" foreground="res/icon/android/mdpi-foreground.png" />
+      <icon background="res/screen/splash-mdpi.png" density="hdpi" foreground="res/icon/android/hdpi-foreground.png" />
+      <icon background="res/screen/splash-xhdpi.png" density="xhdpi" foreground="res/icon/android/xhdpi-foreground.png" />
+      <icon background="res/icon/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icon/android/xxhdpi-foreground.png" />
+      <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" />
     </platform>
 
     <preference name="SplashScreen" value="screen" />
@@ -34,7 +36,7 @@
     <access origin="*" />
 
     <!-- Plugin -->
-    
+
     <feature name="NetworkStatus">
       <param name="android-package" value="org.apache.cordova.NetworkManager" />
     </feature>
